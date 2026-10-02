@@ -24,8 +24,9 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c =>
 const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
 
 function imgPath(assetName) {
-  if (ASSET[assetName]) return ASSET[assetName];
-  return null;
+  const p = ASSET[assetName];
+  if (!p) return null;
+  return p.replace(/^\//, "").startsWith("data/") ? p : "data/" + p.replace(/^\//, "");
 }
 
 function isScreenshot(name) { return /screenshot|screen/i.test(name); }
