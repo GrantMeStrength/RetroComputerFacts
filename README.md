@@ -1,7 +1,7 @@
 # Retro Computer Collection — Web Edition
 
 A read-only, static-website mirror of the iOS app **Retro Computer Collection**
-(app ID 6763369439, bundle `com.craicdesign.Computers`). Browse the same
+(https://apps.apple.com/us/app/retro-computers/id6763369439). Browse the same
 specifications, stories, sample programs, popular games, emulator links,
 peripheral notes, and photo galleries for **113 legendary home computers** —
 no iPhone required.
