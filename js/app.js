@@ -409,7 +409,7 @@ function load() {
     COMPUTERS = data || [];
     Object.assign(ASSET, map || {});
     COMPUTERS.forEach(c => { byId.set(c.id, c); (CATEGORIES[c.category] = CATEGORIES[c.category] || new Set()).add(c.id); });
-    document.body.innerHTML = shell();
+    app.innerHTML = shell();
     $("#shuffle").addEventListener("click", shuffle);
     document.addEventListener("keydown", (e) => {
       if (e.key === "/" && !onDetail() && !/input|textarea/i.test(document.activeElement.tagName)) { e.preventDefault(); $("#search")?.focus(); }
