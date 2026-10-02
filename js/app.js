@@ -93,7 +93,7 @@ function renderHome() {
   main.innerHTML = `
     <section class="hero" aria-labelledby="home-h">
       <h1 id="home-h"><span class="glow">The golden age</span> of personal computing</h1>
-      <p class="lede">Browse ${COMPUTERS.length} the most influencial home computers - from the Altair and ZX80 to the Amiga and the first Macs. Read about the stories, specifications, sample programs, the games it ran, and links to emulators to play in your browser. Then download the [app](https://apps.apple.com/us/app/retro-computers/id6763369439)!.</p>
+      <p class="lede">Browse ${COMPUTERS.length} the most influencial home computers - from the Altair and ZX80 to the Amiga and the first Macs. Read about the stories, specifications, sample programs, the games it ran, and links to emulators to play in your browser. Then download the <a href=\" https://apps.apple.com/us/app/retro-computers/id6763369439\">app!</a>!</p>
       <div class="stats">
         <div class="stat"><b>${COMPUTERS.length}</b><span>Machines</span></div>
         <div class="stat"><b>${new Set(COMPUTERS.map(c => c.country)).size}</b><span>Countries</span></div>
