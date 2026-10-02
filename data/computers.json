@@ -2674,7 +2674,12 @@
       }
     ],
     "category": "American",
-    "photos": [],
+    "photos": [
+      {
+        "assetName": "commodore8032",
+        "caption": "The Commodore CBM 8032 - the business model of the PET line with an 80-column display"
+      }
+    ],
     "cpu": "MOS 6502",
     "overview": "The Commodore CBM 8032, released in 1980, was the definitive business model of the PET line. Where the original PET 2001 offered a cramped 40-column display, the 8032 stepped up to a full 80-column screen on a built-in 12-inch green phosphor monitor - essential for spreadsheets and word processing. Powered by the same MOS 6502 at 1 MHz with 32 KB of RAM and BASIC 4.0 in ROM, it connected to Commodore's IEEE-488 peripheral bus for the CBM 8050 dual floppy drive and daisy-wheel printers. Rugged and reliable, the 8032 was a fixture in UK schools and small businesses well into the mid-1980s, and today remains a benchmark for Commodore's pre-C64 business ambitions.",
     "year": 1980,
